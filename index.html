@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberThreat | UC3M - INCIBE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    .hero-bg { background: linear-gradient(rgba(30,58,138,0.9), rgba(30,58,138,0.95)), url('https://source.unsplash.com/random/1920x1080/?cybersecurity'); background-size: cover; background-position: center; }
+    .modal { animation: fadeIn 0.3s; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+     <!-- HEADER -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-6">
+        <!-- UC3M clicable -->
+        <a href="https://www.uc3m.es/" target="_blank" rel="noopener" 
+           class="p-3 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md hover:scale-105 transition">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_UC3M.svg" alt="UC3M" class="h-14">
+        </a>
+        
+        <!-- INCIBE clicable -->
+        <a href="https://www.incibe.es/" target="_blank" rel="noopener" 
+           class="p-3 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md hover:scale-105 transition">
+          <img src="https://www.incibe.es/sites/default/files/inline-images/Incibe.png" alt="INCIBE" class="h-14">
+        </a>
+      </div>
+      
+      <div class="flex gap-8 text-sm font-medium">
+        <a href="#inicio" class="hover:text-cyan-600 transition">Inicio</a>
+        <a href="#proyecto" class="hover:text-cyan-600 transition">Proyecto</a>
+        <a href="#objetivos" class="hover:text-cyan-600 transition">Objetivos</a>
+        <a href="#actividades" class="hover:text-cyan-600 transition">Actividades</a>
+        <a href="#impacto" class="hover:text-cyan-600 transition">Impacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero-bg text-white py-28">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-6xl md:text-7xl font-bold mb-6">CyberThreat</h1>
+      <p class="text-3xl md:text-4xl mb-10 max-w-3xl mx-auto">Fortaleciendo la ciberseguridad española mediante investigación aplicada</p>
+      
+                <div class="flex flex-wrap justify-center gap-10 items-center mb-12">
+        <!-- Unión Europea -->
+        <a href="https://europa.eu/" target="_blank" rel="noopener">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/200px-Flag_of_Europe.svg.png" alt="Unión Europea" class="h-24 bg-white p-4 rounded-3xl shadow-xl hover:scale-105 transition">
+        </a>
+        
+        <!-- Plan de Recuperación -->
+        <a href="https://planderecuperacion.gob.es/" target="_blank" rel="noopener">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Logotipo_del_Plan_de_Recuperaci%C3%B3n%2C_Transformaci%C3%B3n_y_Resiliencia.svg" alt="Plan de Recuperación" class="h-24 bg-white p-4 rounded-3xl shadow-xl hover:scale-105 transition">
+        </a>
+        
+        <!-- INCIBE (versión gris desde URL, la que te gustaba) -->
+        <a href="https://www.incibe.es/" target="_blank" rel="noopener">
+          <img src="https://www.incibe.es/sites/default/files/inline-images/Incibe.png" alt="INCIBE" class="h-24 bg-white p-4 rounded-3xl shadow-xl hover:scale-105 transition">
+        </a>
+        
+        <!-- UC3M -->
+        <a href="https://www.uc3m.es/" target="_blank" rel="noopener">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_UC3M.svg" alt="UC3M" class="h-24 bg-white p-4 rounded-3xl shadow-xl hover:scale-105 transition">
+        </a>
+      </div>
+      
+      <p class="text-xl">Proyecto finalizado • 31 de diciembre de 2025 • 18 actividades al 100%</p>
+    </div>
+  </section>
+
+  <!-- SOBRE EL PROYECTO -->
+  <section id="proyecto" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Sobre el Proyecto</h2>
+      <div class="prose text-lg mx-auto">
+        <p class="text-justify">Este convenio entre la Universidad Carlos III de Madrid y el Instituto Nacional de Ciberseguridad (INCIBE) forma parte del Programa Global de Innovación en Seguridad y del Componente 15 del Plan de Recuperación, Transformación y Resiliencia (PRTR) financiado por la Unión Europea – NextGenerationEU.</p>
+        <p class="text-justify">El objetivo principal fue generar conocimiento científico aplicado para desarrollar soluciones de alto valor en ciberseguridad, impulsar la industria nacional y formar talento especializado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJETIVOS -->
+  <section id="objetivos" class="py-20 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Objetivos Principales</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-cyan-700">1. Usuarios y ciberseguridad</h3>
+          <p class="text-sm">Mejorar la protección de ciudadanos mediante estudios sobre comportamiento en entornos digitales.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-cyan-700">2. Monitoreo externo e interno</h3>
+          <p class="text-sm">Analizar cómo el activismo, reguladores y auditores influyen en las decisiones de ciberseguridad corporativa.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-cyan-700">3. Comunicación corporativa</h3>
+          <p class="text-sm">Integrar información visual y textual para mejorar la orientación y reducir vulnerabilidades.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-3 text-cyan-700">4. Criptomonedas y riesgo</h3>
+          <p class="text-sm">Estudiar la exposición de empresas a criptoactivos y respuestas de auditores para mitigar riesgos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section id="actividades" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Actividades Realizadas (18/18 completadas)</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="actividades-grid">
+        <!-- Las tarjetas se generan con JS abajo -->
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section id="impacto" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-blue-900">Contribución a la Industria</h2>
+      <div class="grid md:grid-cols-2 gap-10 text-lg">
+        <div>
+          <h3 class="font-semibold mb-4">Innovación y competitividad</h3>
+          <ul class="list-disc pl-6 space-y-3">
+            <li>Extensión del Índice Español de Innovación con dimensión de ciberseguridad e IA.</li>
+            <li>Medida de compromiso con la ciberseguridad basada en informes corporativos.</li>
+            <li>Evidencia sobre sesgos y vulnerabilidades en crowdfunding, cripto y contratos online.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-4">Formación de talento</h3>
+          <ul class="list-disc pl-6 space-y-3">
+            <li>Publicaciones en revistas internacionales de primer nivel.</li>
+            <li>Trabajos de fin de grado y máster vinculados al proyecto.</li>
+            <li>Estancias de investigación internacionales y eventos con empresas.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p class="text-xl font-medium mb-4">CyberThreat • Universidad Carlos III de Madrid • INCIBE</p>
+      <p class="text-sm">Financiado por la Unión Europea – NextGenerationEU a través del Plan de Recuperación, Transformación y Resiliencia (PRTR)</p>
+      <p class="text-xs mt-8">Proyecto finalizado el 31 de diciembre de 2025</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div id="modal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-[100] p-4">
+    <div class="modal bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+      <div class="sticky top-0 bg-white border-b px-8 py-5 flex justify-between items-center">
+        <h3 id="modal-title" class="text-2xl font-bold text-blue-900"></h3>
+        <button onclick="cerrarModal()" class="text-3xl text-gray-400 hover:text-gray-600">×</button>
+      </div>
+      <div id="modal-content" class="px-8 py-8 text-lg leading-relaxed"></div>
+      <div class="px-8 py-6 border-t flex justify-end">
+        <button onclick="cerrarModal()" class="px-8 py-3 bg-slate-100 hover:bg-slate-200 rounded-2xl font-medium">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Datos de las 18 actividades (resúmenes condensados y profesionales)
+    const actividades = [
+      {id:1, titulo:"1. Crowdfunding y ciberseguridad", resumen:"Estudio sobre mentalidades de backers en plataformas de crowdfunding y estrategias de comunicación digital para reducir riesgos cibernéticos. Publicado en proceso editorial de alto nivel."},
+      {id:2, titulo:"2. Activos digitales y blockchain", resumen:"Análisis de sesgos cognitivos en percepción de valor de criptoactivos. Artículo aceptado y publicado en International Journal of Research in Marketing."},
+      {id:3, titulo:"3. Índice de innovación y ciberseguridad", resumen:"Extensión del Índice Español de Innovación con módulo específico de percepción de riesgos de ciberseguridad e IA. III Conferencia con empresas en marzo 2025."},
+      {id:4, titulo:"4. Activismo de accionistas y ciberseguridad", resumen:"Evidencia sobre cómo el activismo accionarial y regulatorio influye en respuestas de auditores ante brechas de datos. Múltiples working papers en revisión."},
+      {id:5, titulo:"5. Gobierno corporativo y diversidad", resumen:"Estudios sobre diversidad en consejos de administración como respuesta a brechas de datos y riesgos reputacionales. Informe profesional publicado en ICAC y mencionado en Forbes."},
+      {id:6, titulo:"6. Analistas y ciberseguridad", resumen:"Impacto de las brechas de datos en las previsiones y cobertura de analistas financieros. Presentaciones en conferencias internacionales."},
+      {id:7, titulo:"7. Información visual y textual", resumen:"Integración de elementos visuales y textuales para mejorar la orientación de usuarios en entornos digitales y reducir vulnerabilidades."},
+      {id:8, titulo:"8. Compromiso con la ciberseguridad", resumen:"Desarrollo de una medida novedosa de compromiso corporativo con la ciberseguridad a partir de informes anuales y su efecto en gobernanza."},
+      {id:9, titulo:"9. Web/App para ciudadanos", resumen:"Diseño y planificación de la web pública de resultados del proyecto (esta misma web forma parte del entregable)."},
+      {id:10, titulo:"10. Exposición al riesgo criptomonedas", resumen:"Medición de exposición corporativa a criptoactivos y mecanismos de mitigación. Estudios sobre verificación de identidad y alfabetización social."},
+      {id:11, titulo:"11. Respuesta de auditores a cripto", resumen:"Análisis de cómo los auditores adaptan sus prácticas ante la exposición de clientes a criptomonedas. Presentado en Auditing Section Midyear Meeting 2025."},
+      {id:12, titulo:"12. Difusión en congresos", resumen:"Más de 25 presentaciones en conferencias internacionales (EAA, EMAC, AOM, etc.)."},
+      {id:13, titulo:"13. Publicaciones profesionales", resumen:"Difusión en medios como Forbes, ICAC y asociaciones profesionales."},
+      {id:14, titulo:"14. Difusión en internet", resumen:"Presencia online y analítica de alcance."},
+      {id:15, titulo:"15. Colaboración con empresas", resumen:"Reuniones y eventos con más de 100 empresarios españoles para el Índice de Innovación."},
+      {id:16, titulo:"16. Estancias internacionales", resumen:"Estancias de investigación en Australia, Corea, EE.UU. y Europa."},
+      {id:17, titulo:"17. Evento UC3M", resumen:"CyberThreat Conference & ASEPUC Doctoral Colloquium (octubre 2025)."},
+      {id:18, titulo:"18. Video de divulgación", resumen:"Preparación del video resumen de resultados (entregable complementario)."}
+    ];
+
+    // Generar tarjetas
+    const grid = document.getElementById('actividades-grid');
+    actividades.forEach(act => {
+      const card = document.createElement('div');
+      card.className = 'bg-white rounded-3xl shadow hover:shadow-2xl transition p-8 cursor-pointer group';
+      card.innerHTML = `
+        <div class="flex justify-between items-start mb-6">
+          <span class="text-4xl font-bold text-cyan-600">${act.id}</span>
+          <span class="bg-green-100 text-green-700 px-4 py-1 rounded-2xl text-xs font-medium">100% completada</span>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 group-hover:text-cyan-700 transition">${act.titulo}</h3>
+        <button onclick="abrirModal(${act.id})" class="text-cyan-600 font-medium flex items-center gap-2 group-hover:gap-3 transition">
+          Ver detalles <i class="fas fa-arrow-right"></i>
+        </button>
+      `;
+      grid.appendChild(card);
+    });
+
+    function abrirModal(id) {
+      const act = actividades.find(a => a.id === id);
+      document.getElementById('modal-title').textContent = act.titulo;
+      document.getElementById('modal-content').innerHTML = `<p>${act.resumen}</p><br><p class="text-sm text-gray-500">Esta actividad contribuyó directamente a los objetivos del convenio INCIBE-UC3M y al fortalecimiento de capacidades en ciberseguridad en España.</p>`;
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
+    function cerrarModal() {
+      document.getElementById('modal').classList.add('hidden');
+    }
+
+    // Cerrar modal con Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === "Escape") cerrarModal();
+    });
+  </script>
+</body>
+</html>
